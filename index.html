@@ -9,7 +9,12 @@
     <code>https://https://randomteam-whereby-com.onrender.com</code>
 
     <script>
-      window.parent.document.location="https://evil.com";
+      window.document.location="https://evil.com";
     </script>
+    <script>
+  if (top !== self) {
+    top.location = self.location;
+  }
+</script>
   </body>
 </html>
