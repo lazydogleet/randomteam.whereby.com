@@ -1,7 +1,8 @@
 <!-- index.html -->
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=javascript:top.location='https://evil.com'" />
   </head>
-  <body></body>
+  <body>
+    <script>window.parent.postMessage("giveMeCookies", "*");</script>
+  </body>
 </html>
