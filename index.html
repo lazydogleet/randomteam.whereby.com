@@ -1,8 +1,16 @@
-<!-- index.html -->
+<!DOCTYPE html>
 <html>
   <head>
+    <title>Origin Whitelist Bypass PoC</title>
   </head>
   <body>
-    <script>window.parent.postMessage("giveMeCookies", "*");</script>
+    <h1> Origin Whitelist Bypass</h1> 
+    <p>This iframe is hosted at:</p>
+    <code>https://https://randomteam-whereby-com.onrender.com</code>
+
+    <script> 
+      //postMessage to demonstrating the bypass 
+      window.parent.postMessage("👋 Hello from spoofed iframe!", "*");
+    </script>
   </body>
 </html>
